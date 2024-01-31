@@ -55,5 +55,7 @@ public class Automate_Dial_In_real_device {
 			driver.findElementById("com.samsung.android.dialer:id/digits").clear();
 		}
 		
+		driver.quit();
+		
 	}
 }
